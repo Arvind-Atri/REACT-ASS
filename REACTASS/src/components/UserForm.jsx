@@ -140,24 +140,7 @@ const UserForm = ({user,onClose,onUserUpdated}) => {
           required
         />
       </div>
-      {/* <div>
-        <label>Company Name:</label>
-        <input
-          type="text"
-          name="company.name"
-          value={formData.company.name}
-          onChange={handleChange}
-        />
-      </div>
-      <div>
-        <label>Website:</label>
-        <input
-          type="url"
-          name="website"
-          value={formData.website}
-          onChange={handleChange}
-        />
-      </div> */}
+     
       <button type="submit">{user ? "Update User" : "Create User"}</button>
       <button type="button" onClick={onClose}>
         Cancel
